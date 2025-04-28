@@ -1,5 +1,5 @@
-Flask==2.1.2
-werkzeug==1.0.1
-requests==2.27.1
-pydub==0.25.1
-gunicorn==20.1.0
+Flask
+werkzeug
+requests
+pydub
+gunicorn
