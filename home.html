@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1 class="heading">Trending Now</h1>
+
+<div class="song-grid">
+    {% for song in trending %}
+    <div class="song-card">
+        <p>{{ song.title }}</p>
+        <button onclick="playSong('{{ song.title }}')">Play ▶️</button>
+    </div>
+    {% endfor %}
+</div>
+
+{% endblock %}
